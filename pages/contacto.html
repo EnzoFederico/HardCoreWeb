@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<header>
+    <img src="../img/logo/icono1.png" alt="logo" class="logo">
+</header>
+
+<body>
+
+   
+
+    <nav class="navbar">
+        <a href="/index.html">Home</a>
+        <a href="/pages/productos.html">Productos</a>
+        <a href="/pages/nosotros.html">Nosotros</a>
+        <a href="/pages/contacto.html">Contacto</a>
+    </nav>
+
+    <section class="sub_header">
+        <div class="contacto">
+            <h3> VENTA TELEFÓNICA</h3>
+            <p>[Tel fijo de empresa]</p>
+        </div>
+
+        <div class="contacto">
+            <h3>HORARIOS</h3>
+            <p>Lunes a viernes de 9:30 a 18:30 hs.
+                Sábados de 10 a 13 hs.</p>
+        </div>
+
+        <div class="contacto">
+            <h3>ESCRIBINOS</h3>
+            <p>ventas@hardcore-shop.com.ar</p>
+        </div>
+
+        <div class="contacto">
+            <h3>WHATSAPP</h3>
+            <p>[número de empresa]</p>
+        </div>
+    </section>
+
+    <div class="form" id="form">
+        <form action="" method="POST" target="blank">
+            <fieldset class="fieldset_class">
+                <legend>Dejános tu consulta</legend>
+                <p>* campos obligatorios.</p>
+                <div>
+                <label for="nombre">*Nombre:</label>
+                <input type="text" name="name" id="name" ><br><br>
+                </div>
+                <div>
+                <label for="apellido">*Apellido:</label>
+                <input type="text" name="surname" id="surname" ><br><br>
+                </div>
+                <div>
+                <label for="email">*Email:</label>
+                <input type="email" name="email" id="email" ><br><br>
+                </div>
+                <div>
+                <label for="consulta">*Consulta:</label>
+                <textarea name="consulta" id="consulta" cols="35" rows="5"></textarea><br><br>
+                </div>
+                <div>
+                <button type="submit">Enviar</button><br><br>
+                <p class="atencion" id="atencion"></p>
+                 </div>
+                
+            </fieldset>
+            
+        </form>
+        <div class="maps">
+            <iframe class="maps_imagen"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d88295.95459445425!2d-58.43446254627885!3d-34.67192168721005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stienda%20gamer!5e0!3m2!1ses-419!2sar!4v1693951671638!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- Esto se copia y pega de Google Maps (por si hay alguno más nabo que yo, jajaj. Vas a compartir->Incorporar un mapa(fijate que le podes cambiar el tamaño en la ventana que sigue)->y copian el código HTML que les da Google(va tal cual sale de ahí,después le podes cambiar atributos y eso si queres)) -->
+   
+</body>
+
+<footer class="footer">
+    <div class="contenedor_derechos">
+         <p>Derechos reservados @Hardcore-Shop 2023</p>
+     </div>
+ </footer>
+
+ <script src="app.js"></script>
+</html>
